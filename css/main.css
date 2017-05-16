@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+/*.row {
+  margin-top: 3rem;
+}*/
+@media (min-width: 550px) { .row { margin-top: 3rem } }
+@media (max-width: 549px) { .column { margin-top: 2rem } }
+
+header{
+  display: block;
+  background-color: #E9E9E9;
+  margin-bottom: 3rem;
+  padding: 3rem 0 1rem;
+}
+
+footer {
+  display: block;
+  background-color: #E9E9E9;
+  margin-bottom: 0;
+  margin-top: 3rem;
+  padding: 3rem 3rem 1rem;
+  text-align: center;
+}
+
+#top a {
+  color: teal;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+
+button {
+  width: 16rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  text-align: center;
+}
+
+button:hover,
+button:focus,
+.work-home-img:hover,
+.work-home-img:active
+ {
+  border-color: teal;
+}
+
+#about-button-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#about-container {
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+
+
+
+@media (min-width: 400px) {#about-container {width: 95%;}}
+@media (min-width: 550px) {#about-container {width: 80%;}}
+@media (min-width: 750px) {#about-container {width: 70%;}}
+@media (min-width: 1000px) {#about-container {width: 60%;}}
+
+#about {
+  margin 0 auto;
+  text-align: center;
+}
+
+#about-me-modal p, #about-project-modal p {
+  letter-spacing: .1rem;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#about-me-modal p:last-of-type {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+hr {
+  margin: 0 0 3rem;
+}
+
+#return {
+  display: inline;
+}
+
+.work-img {
+  border: 1px solid #DDD;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  height: 100%;
+}
+
+
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-home h4 {
+  font-size: .1em;
+}
+
+.work-home-container a {
+  text-decoration: none;
+  color: grey;
+}
+
+.work-home-container h4 {
+  margin-bottom: .5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: .6em;
+  color: #666;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: 1em;
+  color: teal;
+}
+
+h3 {
+  font-size: 3rem;
+  letter-spacing: .3rem;
+  color: teal;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25rem;
+  letter-spacing: .2rem;
+}
+
+span {
+  border-bottom: 2px solid #F9F9F9;
+}
+
+.teal {
+  color: teal;
+}
+
+footer p {
+  color: grey;
+  letter-spacing: .2rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+
+
+
+
+/* Borders
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-home-img {
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+
+.work-home-container h4 {
+  text-align: center;
+}
