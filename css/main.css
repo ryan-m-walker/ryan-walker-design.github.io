@@ -127,6 +127,7 @@ h1 {
   font-size: 2.5em;
   letter-spacing: .6em;
   color: #666;
+  padding-left: 2rem;
 }
 
 h2 {
@@ -134,6 +135,7 @@ h2 {
   font-size: 1.2em;
   letter-spacing: 1em;
   color: teal;
+  padding-left: 2rem;
 }
 
 h3 {
